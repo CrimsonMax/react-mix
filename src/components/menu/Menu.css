@@ -57,3 +57,14 @@ ul {
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+
+  .menu__content {
+    width: 100%;
+  }
+
+  .blur {
+    backdrop-filter: none;
+  }
+}
