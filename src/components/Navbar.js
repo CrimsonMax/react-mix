@@ -11,6 +11,9 @@ export const Navbar = () => {
       <Link className="navbar-logo" to='/burger' >
         Burger
       </Link>
+      <Link className="navbar-logo" to='/popup' >
+        PopUp
+      </Link>
     </div>
     </>
   )
