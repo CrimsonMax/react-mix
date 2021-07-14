@@ -5,6 +5,7 @@ import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
 import { Pagination } from './components/Pagination';
 import { Popup } from './components/Popup';
+import { Dragndrop } from './components/Dragndrop';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/burger' component={Burger} />
           <Route path='/popup' component={Popup} />
           <Route path='/pagination' component={Pagination} />
+          <Route path='/dragndrop' component={Dragndrop} />
         </Switch>
       </BrowserRouter>
     </>
