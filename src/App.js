@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar';
 import { Pagination } from './components/Pagination';
 import { Popup } from './components/Popup';
 import { Dragndrop } from './components/Dragndrop';
+import { DragndropAdvance } from './components/DragndropAdvance';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/popup' component={Popup} />
           <Route path='/pagination' component={Pagination} />
           <Route path='/dragndrop' component={Dragndrop} />
+          <Route path='/dragndropadvance' component={DragndropAdvance} />
         </Switch>
       </BrowserRouter>
     </>

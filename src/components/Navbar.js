@@ -20,6 +20,9 @@ export const Navbar = () => {
         <Link className="navbar-logo" to='/dragndrop' >
           Dragndrop
         </Link>
+        <Link className="navbar-logo" to='/dragndropadvance' >
+          DragndropAdvance
+        </Link>
       </div>
     </>
   )
