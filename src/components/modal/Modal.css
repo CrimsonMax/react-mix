@@ -19,10 +19,10 @@
 }
 
 .modal__content {
-  padding: 20px;
+  /* padding: 20px;
   border-radius: 12px;
   background-color: white;
-  width: 50vw;
+  width: 50vw; */
   transform: scale(.5);
   transition: .4s all;
 }
